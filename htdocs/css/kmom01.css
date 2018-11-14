@@ -21,10 +21,13 @@ body {
 }
 
 .wrap-all {
-    padding: 0.25em 0 0;
+
 }
 
 /* Header */
+.inner-wrap-header {
+    padding: 0.25em;
+}
 
 .region-header-col-1 {
     display: inline;
