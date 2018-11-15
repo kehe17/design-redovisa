@@ -18,11 +18,8 @@ views:
 ---
 Om
 =========================
+Kursen Teknisk webbdesign och användbarhet, a.k.a. design, lär webbprogrammeraren att tekniskt förbereda sin webbplats för design och användbarhet.
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/om.md`.
-
-Skriv några kloka ord om kursen?
-
-Lägg till en representativ bild för kursen, enligt ditt egna val.
+Kursen syftar till en orientering inom områden design och användbarhet, specifikt för tillämpningsområdet webb. Kursen har tekniken som utgångspunkt, där olika tekniker introduceras och används för att underlätta webbdesign och användbarhet för webbplatsen med syftet att skapa en korrekt och användarvänlig webbplats.
 
 [FIGURE src=image/dacia.jpg?w=300 caption="Good news, it's a Dacia Sandero."]
