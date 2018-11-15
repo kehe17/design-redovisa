@@ -31,7 +31,7 @@ body {
 
 .region-header-col-1 {
     display: inline;
-    width: 10%;
+    width: 20%;
 }
 
 .site-logo {
@@ -42,7 +42,7 @@ body {
     display: inline-block;
     color: #444;
     font-size: 150%;
-    width: 10%;
+    width: 20%;
     text-align: right;
 }
 
@@ -58,14 +58,14 @@ body {
 
 .region-header-col-2 {
     display: inline;
-    width: 79%;
+    width: 59%;
     padding: 0 0.34375%;
 }
 
 .rm-navbar {
     font-size: 125%;
     display: inline-block;
-    width: 79%;
+    width: 59%;
 }
 
 .rm-default {
