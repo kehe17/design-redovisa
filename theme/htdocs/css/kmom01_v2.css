@@ -349,7 +349,13 @@ template {
   overflow-x: auto;
 }
 /**
- * Table layout
+ * Style for tables.
+ */
+/**
+ * Variables
+ */
+/**
+ * Style
  */
 table {
   box-sizing: border-box;
@@ -518,7 +524,7 @@ blockquote {
   display: inline-block;
   width: 59%;
 }
-.rm-default {
+.rm-desktop {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -526,13 +532,17 @@ blockquote {
   list-style: none;
   padding: 0;
   margin: 0;
-  overflow: hidden;
 }
 .rm-default li {
-  width: 7.98em;
   background: #444;
   color: #fff;
   margin: 0.1em;
+}
+.rm-desktop li {
+  width: 7.98em;
+}
+.rm-mobile li {
+  width: 100%;
 }
 .rm-default li a {
   display: block;
@@ -541,7 +551,7 @@ blockquote {
   color: inherit;
 }
 .region-header-col-3 {
-  display: none;
+  display: inline;
   width: 10%;
 }
 /**
