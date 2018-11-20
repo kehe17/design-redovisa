@@ -1,0 +1,113 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@bgColorHtml: #fffdd0;
+@bgColorBody: #fff;
+@colorBody: #333;
+@fontFamilyBody: 'Source Sans Pro', sans-serif;
+@fontFamilyHeader: 'Open Sans', sans-serif;
+@lineHeight: 1.2;
+
+html {
+    overflow-y: scroll;
+    box-sizing: border-box;
+    line-height: @lineHeight;
+    background-color: @bgColorHtml;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: @colorBody;
+    background-color: @bgColorBody;
+    font: 112.5%/1 @fontFamilyBody;
+}
+
+img {
+    max-width: 100%;
+}
+
+.next-previous {
+    clear: both;
+}
+
+.left,
+.previous {
+    float: left;
+}
+
+.right,
+.next {
+    float: right;
+}
+
+.author-byline {
+    border: 1px solid #ccc;
+    margin-bottom: 46px;
+    padding: 1em;
+}
+
+.author-byline::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+figure.figure {
+    margin: 0;
+    padding: 0;
+    overflow-x: auto;
+}
+
+figure.figure figcaption {
+    padding: 0 0.3em;
+}
+
+figure.figure p {
+    margin: 0.1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: @fontFamilyHeader;
+    margin-bottom: 0.25rem;
+    border-bottom: 1px solid #ccc;
+}
+
+h1 {
+    font-size: 200%;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid #444;
+}
+
+h2 {
+    font-size: 150%;
+}
+
+h3 {
+    font-size: 125%;
+}
+
+h4 {
+    font-size: 100%;
+}
+
+pre,
+code {
+    background: #eee;
+    border: 1px solid #ddd;
+}
+
+pre {
+    overflow-x: auto;
+}
+
+blockquote {
+    border-left: 5px solid #eee;
+    padding-left: 0.5em;
+    margin-left: 1em;
+}
