@@ -333,6 +333,9 @@ template {
 .rm-navbar-max {
   display: none;
 }
+.header-anchor {
+  display: none;
+}
 /**
  * Style for the stylechooser.
  */
@@ -342,6 +345,29 @@ template {
 /**
  * Style
  */
+.stylechooser {
+  overflow-x: auto;
+}
+/**
+ * Table layout
+ */
+table {
+  box-sizing: border-box;
+  border-collapse: collapse;
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  overflow-x: auto;
+  text-align: left;
+}
+tr {
+  height: 2em;
+  border-bottom: 1px solid #ccc;
+}
+td,
+th {
+  padding-right: 1.5em;
+}
 /**
  * Base style to affect HTML elements on a general scale.
  */
@@ -388,7 +414,7 @@ img {
 figure.figure {
   margin: 0;
   padding: 0;
-  max-width: 100%;
+  overflow-x: auto;
 }
 figure.figure figcaption {
   padding: 0 0.3em;
@@ -646,34 +672,8 @@ blockquote {
   padding: 0.5em;
 }
 /**
- * Table layout
- */
-table {
-  box-sizing: border-box;
-  border-collapse: collapse;
-  max-width: 100%;
-  width: 100%;
-  display: block;
-  overflow-x: auto;
-  text-align: left;
-}
-tr {
-  height: 2em;
-  border-bottom: 1px solid #ccc;
-}
-td,
-th {
-  padding-right: 1.5em;
-}
-/**
  * Other elements
  */
-.stylechooser {
-  overflow-x: auto;
-}
-.header-anchor {
-  display: none;
-}
 .hljs {
   padding: 0.5em 1em;
 }
