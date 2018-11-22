@@ -1,7 +1,13 @@
 Revision history
 ===================
 
-
+v2.0.0 (2018-11-22)
+* Fixed spelling error in kmom01 text.
+* Added theme module.
+* Split kmom01 css into smaller files.
+* Added kmom02 style.
+* Made kmom02 style the default style.
+* Added kmom02 text.
 
 v1.0.0 (2018-11-15)
 * Minor updates to kmom01.css style.
