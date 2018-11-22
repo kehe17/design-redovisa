@@ -492,7 +492,8 @@ blockquote {
 .inner-wrap-header {
   padding: 0.25em;
 }
-.region-header-col-1 {
+.region-header-col-1,
+.region-header-col-3 {
   display: inline;
   width: 20%;
 }
@@ -549,10 +550,6 @@ blockquote {
   text-decoration: none;
   padding: 1em;
   color: inherit;
-}
-.region-header-col-3 {
-  display: inline;
-  width: 10%;
 }
 /**
  * Flashmessage layout
@@ -705,14 +702,29 @@ blockquote {
     display: none;
   }
 }
-@media screen and (max-width: 1000px) {
-  .rm-desktop {
+@media screen and (max-width: 980px) {
+  .rm-desktop li {
+    width: 7.25em;
+  }
+}
+@media screen and (max-width: 900px) {
+  .region-header-col-1,
+  .site-logo-text {
+    width: 10%;
+  }
+  .site-logo-text-icon {
     display: none;
+  }
+  .region-header-col-2,
+  .rm-navbar {
+    width: 79%;
   }
 }
 @media screen and (max-width: 700px) {
-  .site-logo-text-icon {
-    display: none;
+  .region-header-col-1,
+  .site-logo-text {
+    width: 90%;
+    text-align: center;
   }
   .region-main {
     width: 100% !important;
@@ -725,6 +737,12 @@ blockquote {
   }
   .footer-column-x {
     border-right: none;
+  }
+  .rm-small {
+    display: block;
+  }
+  .rm-desktop {
+    display: none;
   }
 }
 /**
