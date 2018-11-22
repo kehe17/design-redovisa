@@ -321,67 +321,6 @@ template {
   display: none;
 }
 /**
- * Internal self contained modules, save in directory module/.
- */
-/*!
- * Stylesheet for design kmom01.
- *
- * This stylesheet is for the design course and kmom01. Fill it with style
- * to style up the website so it is useable.
- */
-/* Hide submenu, leave this to kmom02 */
-.rm-desktop li .rm-submenu-button {
-  display: none;
-}
-.rm-desktop ul {
-  display: none;
-}
-/* Hide responsive/mobile menu, leave this to kmom02 */
-.rm-navbar-max {
-  display: none;
-}
-.header-anchor {
-  display: none;
-}
-/**
- * Style for the stylechooser.
- */
-/**
- * Variables
- */
-/**
- * Style
- */
-.stylechooser {
-  overflow-x: auto;
-}
-/**
- * Style for tables.
- */
-/**
- * Variables
- */
-/**
- * Style
- */
-table {
-  box-sizing: border-box;
-  border-collapse: collapse;
-  max-width: 100%;
-  width: 100%;
-  display: block;
-  overflow-x: auto;
-  text-align: left;
-}
-tr {
-  height: 2em;
-  border-bottom: 1px solid #ccc;
-}
-td,
-th {
-  padding-right: 1.5em;
-}
-/**
  * Base style to affect HTML elements on a general scale.
  */
 /**
@@ -782,6 +721,67 @@ blockquote {
   background-color: #b5dce1;
   border: 1px solid #6cbac4;
   color: #111;
+}
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+/*!
+ * Stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Fill it with style
+ * to style up the website so it is useable.
+ */
+/* Hide submenu, leave this to kmom02 */
+.rm-desktop li .rm-submenu-button {
+  display: none;
+}
+.rm-desktop ul {
+  display: none;
+}
+/* Hide responsive/mobile menu, leave this to kmom02 */
+.rm-navbar-max {
+  display: none;
+}
+.header-anchor {
+  display: none;
+}
+/**
+ * Style for the stylechooser.
+ */
+/**
+ * Variables
+ */
+/**
+ * Style
+ */
+.stylechooser {
+  overflow-x: auto;
+}
+/**
+ * Style for tables.
+ */
+/**
+ * Variables
+ */
+/**
+ * Style
+ */
+table {
+  box-sizing: border-box;
+  border-collapse: collapse;
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  overflow-x: auto;
+  text-align: left;
+}
+tr {
+  height: 2em;
+  border-bottom: 1px solid #ccc;
+}
+td,
+th {
+  padding-right: 1.5em;
 }
 /**
  * My own settings, not currently in their own module.

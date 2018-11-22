@@ -552,47 +552,6 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   right: 0;
 }
 /**
- * Internal self contained modules, save in directory module/.
- */
-/**
- * Style for the stylechooser.
- */
-/**
- * Variables
- */
-/**
- * Style
- */
-.stylechooser {
-  overflow-x: auto;
-}
-/**
- * Style for tables.
- */
-/**
- * Variables
- */
-/**
- * Style
- */
-table {
-  box-sizing: border-box;
-  border-collapse: collapse;
-  max-width: 100%;
-  width: 100%;
-  display: block;
-  overflow-x: auto;
-  text-align: left;
-}
-tr {
-  height: 2em;
-  border-bottom: 1px solid #ccc;
-}
-td,
-th {
-  padding-right: 1.5em;
-}
-/**
  * Base style to affect HTML elements on a general scale.
  */
 /**
@@ -993,6 +952,47 @@ blockquote {
   background-color: #b5dce1;
   border: 1px solid #6cbac4;
   color: #111;
+}
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+/**
+ * Style for the stylechooser.
+ */
+/**
+ * Variables
+ */
+/**
+ * Style
+ */
+.stylechooser {
+  overflow-x: auto;
+}
+/**
+ * Style for tables.
+ */
+/**
+ * Variables
+ */
+/**
+ * Style
+ */
+table {
+  box-sizing: border-box;
+  border-collapse: collapse;
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  overflow-x: auto;
+  text-align: left;
+}
+tr {
+  height: 2em;
+  border-bottom: 1px solid #ccc;
+}
+td,
+th {
+  padding-right: 1.5em;
 }
 /**
  * Font Awesome.
