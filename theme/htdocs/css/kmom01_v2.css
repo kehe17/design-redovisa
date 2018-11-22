@@ -676,7 +676,8 @@ blockquote {
     width: 100% !important;
   }
   .wrap-sidebar {
-    display: none;
+    width: 100% !important;
+    margin-bottom: 0.5em;
   }
   .footer-column-wrapper {
     display: inline-block;
