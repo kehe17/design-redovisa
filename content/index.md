@@ -6,7 +6,7 @@ About me
 
 Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
 
-[FIGURE src="image/me.jpg?h=300" class="right" caption="Johnny Five"]
+[FIGURE src="image/me.jpg?h=296" class="right" caption="Johnny Five"]
 
 My name is Kenneth Heimer. At the time of writing I am 27 years old. I was born in Skövde, but grew up in the Stockholm area, in the port town of Nynäshamn for the most part. A few years back I moved to Örebro, where I currently reside.
 

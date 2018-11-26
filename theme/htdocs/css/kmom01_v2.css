@@ -329,7 +329,6 @@ template {
 html {
   overflow-y: scroll;
   box-sizing: border-box;
-  line-height: 1.2;
   background-color: #fffdd0;
 }
 body {
@@ -337,7 +336,6 @@ body {
   padding: 0;
   color: #333;
   background-color: #fff;
-  font: 112.5%/1 'Source Sans Pro', sans-serif;
 }
 img {
   max-width: 100%;
@@ -352,27 +350,6 @@ img {
 .right,
 .next {
   float: right;
-}
-.author-byline {
-  border: 1px solid #ccc;
-  margin-bottom: 46px;
-  padding: 1em;
-}
-.author-byline::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-figure.figure {
-  margin: 0;
-  padding: 0;
-  overflow-x: auto;
-}
-figure.figure figcaption {
-  padding: 0 0.3em;
-}
-figure.figure p {
-  margin: 0.1em;
 }
 .article::after {
   content: "";
@@ -608,6 +585,12 @@ td,
 th {
   padding-right: 1.5em;
 }
+html {
+  line-height: 1.2;
+}
+body {
+  font: 112.5%/1 'Source Sans Pro', sans-serif;
+}
 h1,
 h2,
 h3,
@@ -644,6 +627,27 @@ blockquote {
   border-left: 5px solid #eee;
   padding-left: 0.5em;
   margin-left: 1em;
+}
+.author-byline {
+  border: 1px solid #ccc;
+  margin-bottom: 46px;
+  padding: 1em;
+}
+.author-byline::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+figure.figure {
+  margin: 0;
+  padding: 0;
+  overflow-x: auto;
+}
+figure.figure figcaption {
+  padding: 0 0.3em;
+}
+figure.figure p {
+  margin: 0.1em;
 }
 .rm-desktop {
   display: flex;
@@ -723,8 +727,7 @@ blockquote {
 }
 .section-header {
   font-weight: bold;
-  border-bottom: 1px solid #eee;
-  margin: 0.75em 0;
+  margin-bottom: 24px;
 }
 /**
  * Other elements

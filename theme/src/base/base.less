@@ -4,14 +4,10 @@
 @bgColorHtml: #fffdd0;
 @bgColorBody: #fff;
 @colorBody: #333;
-@fontFamilyBody: 'Source Sans Pro', sans-serif;
-@fontFamilyHeader: 'Open Sans', sans-serif;
-@lineHeight: 1.2;
 
 html {
     overflow-y: scroll;
     box-sizing: border-box;
-    line-height: @lineHeight;
     background-color: @bgColorHtml;
 }
 
@@ -20,7 +16,6 @@ body {
     padding: 0;
     color: @colorBody;
     background-color: @bgColorBody;
-    font: 112.5%/1 @fontFamilyBody;
 }
 
 img {
@@ -39,32 +34,6 @@ img {
 .right,
 .next {
     float: right;
-}
-
-.author-byline {
-    border: 1px solid #ccc;
-    margin-bottom: 46px;
-    padding: 1em;
-}
-
-.author-byline::after {
-    content: "";
-    display: block;
-    clear: both;
-}
-
-figure.figure {
-    margin: 0;
-    padding: 0;
-    overflow-x: auto;
-}
-
-figure.figure figcaption {
-    padding: 0 0.3em;
-}
-
-figure.figure p {
-    margin: 0.1em;
 }
 
 .article {

@@ -1,3 +1,15 @@
+@fontFamilyBody: 'Source Sans Pro', sans-serif;
+@fontFamilyHeader: 'Open Sans', sans-serif;
+@lineHeight: 1.2;
+
+html {
+    line-height: @lineHeight;
+}
+
+body {
+    font: 112.5%/1 @fontFamilyBody;
+}
+
 h1,
 h2,
 h3,
@@ -41,4 +53,31 @@ blockquote {
     border-left: 5px solid #eee;
     padding-left: 0.5em;
     margin-left: 1em;
+}
+
+// Should move these to another file
+.author-byline {
+    border: 1px solid #ccc;
+    margin-bottom: 46px;
+    padding: 1em;
+}
+
+.author-byline::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+figure.figure {
+    margin: 0;
+    padding: 0;
+    overflow-x: auto;
+}
+
+figure.figure figcaption {
+    padding: 0 0.3em;
+}
+
+figure.figure p {
+    margin: 0.1em;
 }
