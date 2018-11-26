@@ -1,0 +1,34 @@
+/**
+ * Layout for responsive style through media queries.
+ */
+
+@media screen and (max-width: 1100px) {
+	.inner-wrap {
+		margin: 0 0.25em;
+	}
+	
+	.region-main,
+	.region-sidebar-left,
+	.region-sidebar-right {
+		#desinax-vgrid.column(@columns) !important;
+	}
+	
+	.footer-column {
+		#desinax-vgrid.column(@columns);
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.rm-small {
+        display: block;
+    }
+    
+    .rm-desktop {
+        display: none;
+    }
+	
+	.site-logo-text-icon {
+        display: none;
+    }
+}
+ 

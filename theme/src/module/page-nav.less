@@ -1,0 +1,46 @@
+/**
+ * Breadcrumb layout
+ */
+.breadcrumb-list ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.breadcrumb-list li::after {
+    content: " »";
+    display: inline;
+    margin-right: 3px;
+}
+
+.toc {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.toc .selected {
+    background: #eee;
+}
+
+.section-header {
+    font-weight: bold;
+    border-bottom: 1px solid #eee;
+    margin: 0.75em 0;
+}
+
+/**
+ * Other elements
+ */
+.hljs {
+    padding: 0.5em 1em;
+}
+
+.revision-history {
+    list-style: none;
+    color: #444;
+    padding: 0;
+}

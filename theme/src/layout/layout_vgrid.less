@@ -1,0 +1,103 @@
+/**
+ * Layout style for vertical grid structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+ 
+/**
+ * Import the vertical grid.
+ */
+@import "../@desinax/vertical-grid/less/grid.less";
+
+// Default grid, change to fit your requirements.
+@columnWidth:   30;
+@gutterWidth:   10;
+@columns:       24;
+@gridType:      "float"; // "flex"
+
+html {
+	overflow-x: hidden;
+}
+
+.row {
+    #desinax-vgrid.row();
+    //background-color: #0f0;
+    margin-bottom: 0 auto 12px;
+}
+
+.region-header-col-1,
+.region-header-col-3 {
+    #desinax-vgrid.column(@columns / 6);
+}
+
+.region-header-col-2 {
+	#desinax-vgrid.column(@columns * 4 / 6);
+}
+
+.region-header {
+	.clearfix();
+}
+
+.region-flash {
+    #desinax-vgrid.column(@columns);
+    //#desinax-vgrid.push(2);
+}
+
+.region-sidebar-left,
+.region-sidebar-right {
+    #desinax-vgrid.column(@columns / 4);
+}
+
+.region-main {
+    #desinax-vgrid.column(@columns);
+	margin-bottom: 0.5em;
+}
+
+.region-main.has-sidebar-left,
+.region-main.has-sidebar-right {
+	#desinax-vgrid.column(@columns * 3 / 4);
+}
+
+.footer-column {
+    #desinax-vgrid.column(@columns / 3);
+}
+
+.footer-column-x {
+	padding: 1em;
+}
+
+.footer-column-wrapper {
+	.clearfix();
+}
+
+.site-footer {
+	text-align: center;
+}
+
+/*.region {
+    height: 80px;
+    background-color: lighten(#0f0, 20%);
+}*/
+
+.inner-wrap {
+    #desinax-vgrid.grid(1100px);
+}
+
+.inner-wrap-header {
+    #desinax-vgrid.grid(100%);
+}
+
+.outer-wrap-footer {
+    clear: both;
+    background: #fffdd0;
+}
+
+.vgrid .inner-wrap {
+    @gridImage: "../../theme/src/@desinax/vertical-grid/img/grid_24x30x10-nomargin.png";
+    //@gridImage: "../../theme/src/@desinax/vertical-grid/img/grid_12x60x20-nomargin.png";
+    #desinax-vgrid.showGrid(@gridImage, 1100px);
+
+    &.inner-wrap-header,
+    &.inner-wrap-footer {
+        #desinax-vgrid.showGrid(@gridImage);
+    }
+}
