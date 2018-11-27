@@ -1270,21 +1270,17 @@ th {
   .inner-wrap {
     margin: 0 0.25em;
   }
+}
+@media screen and (max-width: 900px) {
   .region-main,
   .region-sidebar-left,
-  .region-sidebar-right {
+  .region-sidebar-right,
+  .footer-column {
     display: inline !important;
     float: left !important;
     width: 98.95833333% !important;
     margin-left: 0.52083333% !important;
     margin-right: 0.52083333% !important;
-  }
-  .footer-column {
-    display: inline;
-    float: left;
-    width: 98.95833333%;
-    margin-left: 0.52083333%;
-    margin-right: 0.52083333%;
   }
 }
 @media screen and (max-width: 700px) {
