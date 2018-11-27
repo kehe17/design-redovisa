@@ -39,7 +39,6 @@ html {
 
 .region-flash {
     #desinax-vgrid.column(@columns);
-    //#desinax-vgrid.push(2);
 }
 
 .region-sidebar-left,
@@ -48,13 +47,16 @@ html {
 }
 
 .region-main {
-    #desinax-vgrid.column(@columns);
+    #desinax-vgrid.column(@columns * 3 / 4);
 	margin-bottom: 0.5em;
-}
-
-.region-main.has-sidebar-left,
-.region-main.has-sidebar-right {
-	#desinax-vgrid.column(@columns * 3 / 4);
+	
+	&.has-sidebar-left.has-sidebar-right {
+		#desinax-vgrid.column(@columns * 1 / 2);
+	}
+	
+	&:not(.has-sidebar-left):not(.has-sidebar-right) {
+		#desinax-vgrid.push(3);
+	}
 }
 
 .footer-column {
