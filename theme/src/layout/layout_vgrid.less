@@ -33,11 +33,13 @@ html {
 	#desinax-vgrid.column(@columns * 4 / 6);
 }
 
-.region-header {
+.region-header,
+.region-footer {
 	.clearfix();
 }
 
-.region-flash {
+.region-flash,
+.region-breadcrumb {
     #desinax-vgrid.column(@columns);
 }
 
@@ -60,19 +62,17 @@ html {
 }
 
 .footer-column {
-    #desinax-vgrid.column(@columns / 3);
-}
-
-.footer-column-x {
-	padding-left: 1em;
-	padding-right: 1em;
+    #desinax-vgrid.column(@columns / 4);
+	#desinax-vgrid.push(2);
 }
 
 .footer-column-wrapper {
 	.clearfix();
+	#desinax-vgrid.column(@columns - 2);
 }
 
 .site-footer {
+	#desinax-vgrid.column(@columns);
 	text-align: center;
 }
 

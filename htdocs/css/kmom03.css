@@ -657,12 +657,14 @@ html {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
 }
-.region-header::after {
+.region-header::after,
+.region-footer::after {
   content: "";
   display: block;
   clear: both;
 }
-.region-flash {
+.region-flash,
+.region-breadcrumb {
   display: inline;
   float: left;
   width: 98.95833333%;
@@ -698,13 +700,17 @@ html {
 .footer-column {
   display: inline;
   float: left;
-  width: 32.29166667%;
+  width: 23.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+  margin-left: 8.85416667%;
 }
-.footer-column-x {
-  padding-left: 1em;
-  padding-right: 1em;
+.footer-column-wrapper {
+  display: inline;
+  float: left;
+  width: 90.625%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
 }
 .footer-column-wrapper::after {
   content: "";
@@ -712,6 +718,11 @@ html {
   clear: both;
 }
 .site-footer {
+  display: inline;
+  float: left;
+  width: 98.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
   text-align: center;
 }
 /*.region {
@@ -1143,32 +1154,6 @@ hr::after {
 .stylechooser {
   overflow-x: auto;
 }
-/**
- * Style for tables.
- */
-/**
- * Variables
- */
-/**
- * Style
- */
-table {
-  box-sizing: border-box;
-  border-collapse: collapse;
-  max-width: 100%;
-  width: 100%;
-  display: block;
-  overflow-x: auto;
-  text-align: left;
-}
-tr {
-  height: 2em;
-  border-bottom: 1px solid #ccc;
-}
-td,
-th {
-  padding-right: 1.5em;
-}
 .rm-desktop {
   display: flex;
   flex-flow: row wrap;
@@ -1266,12 +1251,14 @@ th {
 /**
  * Layout for responsive style through media queries.
  */
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1122px) {
   .inner-wrap {
-    margin: 0 0.25em;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 98%;
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 700px) {
   .region-main,
   .region-sidebar-left,
   .region-sidebar-right,
@@ -1282,8 +1269,6 @@ th {
     margin-left: 0.52083333% !important;
     margin-right: 0.52083333% !important;
   }
-}
-@media screen and (max-width: 700px) {
   .rm-small {
     display: block;
   }
