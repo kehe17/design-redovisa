@@ -18,6 +18,11 @@ return [
             "url" => "redovisning",
             "title" => "Redovisningstexter från kursmomenten.",
         ],
+		[
+            "text" => "Rapport",
+            "url" => "rapport",
+            "title" => "Rapporttexter från kursmomenten.",
+        ],
         [
             "text" => "Om",
             "url" => "om",
