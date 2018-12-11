@@ -1,9 +1,15 @@
 /*!
- * Stylesheet for design kmom03.
+ * Colorful stylesheet for design kmom04.
  *
- * This stylesheet is for the design course and kmom03. Its intention is to
- * use kmom03.css and lessify the style and use this as a wrapper for the new
- * style.
+ * This stylesheet is for the design course and kmom04.
+ */
+/* Main Primary color */
+/* Main Secondary color (1) */
+/* Main Secondary color (2) */
+/*
+ * Stylesheet for design kmom04.
+ *
+ * This stylesheet is for the design course and kmom04.
  */
 /**
  * Import mixins.
@@ -560,13 +566,13 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 html {
   overflow-y: scroll;
   box-sizing: border-box;
-  background-color: #fffdd0;
+  background-color: #D05021;
 }
 body {
   margin: 0;
   padding: 0;
-  color: #333;
-  background-color: #fff;
+  color: #81ABC9;
+  background-color: #0F4368;
 }
 img {
   max-width: 100%;
@@ -741,7 +747,7 @@ html {
 }
 .outer-wrap-footer {
   clear: both;
-  background: #fffdd0;
+  background: #D05021;
 }
 .vgrid .inner-wrap {
   background: url("../../theme/src/@desinax/vertical-grid/img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
@@ -824,7 +830,7 @@ h1 {
   font-size: 2.375em;
   line-height: 1.26315789;
   font-weight: normal;
-  border-bottom: 1px solid #666;
+  border-bottom: 1px solid #FF9872;
   margin-bottom: 23px;
 }
 h1 ~ h1,
@@ -843,7 +849,7 @@ h2 {
   line-height: 1.6;
   font-weight: normal;
   margin-bottom: 23px;
-  border-bottom: 1px solid #CCC;
+  border-bottom: 1px solid #FFB79D;
 }
 h2 + h3 {
   margin-top: 24px;
@@ -853,7 +859,7 @@ h3 {
   line-height: 1.71428571;
   font-weight: normal;
   margin-bottom: 23px;
-  border-bottom: 1px solid #EEE;
+  border-bottom: 1px solid #81ABC9;
 }
 h3 + h4 {
   margin-top: 24px;
@@ -863,7 +869,7 @@ h4 {
   line-height: 1;
   font-weight: normal;
   margin-bottom: 23px;
-  border-bottom: 1px solid #EEE;
+  border-bottom: 1px solid #81ABC9;
 }
 h4 + h5 {
   margin-top: 24px;
@@ -872,7 +878,7 @@ h5 {
   font-size: 1.25em;
   line-height: 1.2;
   margin-bottom: 23px;
-  border-bottom: 1px solid #EEE;
+  border-bottom: 1px solid #81ABC9;
 }
 h5 + h6 {
   margin-top: 24px;
@@ -881,7 +887,7 @@ h6 {
   font-size: 1.25em;
   line-height: 1.2;
   margin-bottom: 23px;
-  border-bottom: 1px solid #EEE;
+  border-bottom: 1px solid #81ABC9;
 }
 p {
   margin-bottom: 24px;
@@ -922,7 +928,7 @@ sub {
   bottom: -0.25em;
 }
 blockquote {
-  border-left: 4px solid #eee;
+  border-left: 4px solid #FFB79D;
   padding-left: 1em;
   margin-left: 0;
   margin-bottom: 24px;
@@ -936,12 +942,12 @@ samp,
 }
 code,
 samp {
-  border: 1px solid #ccc;
+  border: 1px solid #FFDB72;
   padding-left: 1px;
   padding-right: 1px;
 }
 code {
-  background-color: #eee;
+  background-color: #FFE69D;
 }
 pre,
 div.code,
@@ -959,13 +965,13 @@ pre code {
 }
 div.code,
 pre code {
-  border-top: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #FFDB72;
+  border-bottom: 1px solid #FFDB72;
   margin-bottom: 23px;
   padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 0.5em;
-  background-color: #eee;
+  background-color: #FFE69D;
 }
 ul,
 ol {
@@ -1164,8 +1170,8 @@ hr::after {
   margin: 0;
 }
 .rm-default li {
-  background: #444;
-  color: #fff;
+  background: #A37D0F;
+  color: #FFE69D;
   margin: 0.1em;
 }
 .rm-desktop li {
@@ -5292,3 +5298,38 @@ hr::after {
 /**
  * My own settings, not currently in their own module.
  */
+a:link,
+a:visited {
+  color: #5184A7;
+}
+a:hover,
+a:focus,
+a:active {
+  color: #0F4368;
+  background-color: #5184A7;
+}
+.toc .selected {
+  background-color: #5184A7;
+}
+.toc .selected a:link,
+.toc .selected a:visited {
+  color: #0F4368;
+}
+.revision-history {
+  list-style: none;
+  color: #5184A7;
+  padding: 0;
+}
+.region-footer {
+  color: #FFB79D;
+}
+.region-footer a:link,
+.region-footer a:visited {
+  color: #FFB79D;
+}
+.region-footer a:hover,
+.region-footer a:focus,
+.region-footer a:active {
+  color: #A3370F;
+  background-color: #FFB79D;
+}

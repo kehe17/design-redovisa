@@ -1,0 +1,42 @@
+/*!
+ * Dark stylesheet for design kmom04.
+ *
+ * This stylesheet is for the design course and kmom04.
+ */
+
+@color-primary-0: #616161;	/* Main Primary color */
+@color-primary-1: #9D9D9D;
+@color-primary-2: #7C7C7C;
+@color-primary-3: #444444;
+@color-primary-4: #1F1F1F;
+
+@import "base/kmom04.less";
+
+@bgColorHtml:   @color-primary-3;
+@bgColorNavbar: @color-primary-3;
+@bgColorBody:   @color-primary-4;
+@colorBody:     @color-primary-1;
+@colorNav:      @color-primary-1;
+@colorAccent:   @color-primary-2;
+
+@colorH1BorderBottom: @color-primary-0;
+@colorH2BorderBottom: @color-primary-2;
+@colorH3BorderBottom: @color-primary-1;
+@colorH4BorderBottom: @color-primary-1;
+@colorH5BorderBottom: @color-primary-1;
+@colorH6BorderBottom: @color-primary-1;
+
+@colorBlockquoteBorder: @color-primary-3;
+@borderColorCodeInline: @color-primary-0;
+@bgColorCodeInline:     @color-primary-3;
+@bgColorCodeBlock:      @color-primary-3;
+@colorCodeBlockBorder:  @color-primary-0;
+
+// Hiding flash region since it's a bit too colorful for the dark theme
+.outer-wrap-flash {
+	height: 50px;
+}
+
+.region-flash {
+	display: none;
+}

@@ -1259,6 +1259,13 @@ hr::after {
   }
 }
 @media screen and (max-width: 700px) {
+  .figure {
+    display: block;
+    float: none;
+  }
+  .region-flash {
+    display: none;
+  }
   .region-main,
   .region-sidebar-left,
   .region-sidebar-right,

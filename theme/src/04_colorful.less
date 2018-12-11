@@ -1,0 +1,60 @@
+/*!
+ * Colorful stylesheet for design kmom04.
+ *
+ * This stylesheet is for the design course and kmom04.
+ */
+
+@color-primary-0: #356C93;	/* Main Primary color */
+@color-primary-1: #81ABC9;
+@color-primary-2: #5184A7;
+@color-primary-3: #1C5A86;
+@color-primary-4: #0F4368;
+
+@color-secondary-1-0: #E6BE49;	/* Main Secondary color (1) */
+@color-secondary-1-1: #FFE69D;
+@color-secondary-1-2: #FFDB72;
+@color-secondary-1-3: #D0A321;
+@color-secondary-1-4: #A37D0F;
+
+@color-secondary-2-0: #E67349;	/* Main Secondary color (2) */
+@color-secondary-2-1: #FFB79D;
+@color-secondary-2-2: #FF9872;
+@color-secondary-2-3: #D05021;
+@color-secondary-2-4: #A3370F;
+
+ 
+@import "base/kmom04.less";
+
+
+@bgColorHtml:   @color-secondary-2-3;
+@bgColorNavbar: @color-secondary-1-4;
+@bgColorBody:   @color-primary-4;
+@colorBody:     @color-primary-1;
+@colorNav:      @color-secondary-1-1;
+@colorAccent:   @color-primary-2;
+
+@colorH1BorderBottom: @color-secondary-2-2;
+@colorH2BorderBottom: @color-secondary-2-1;
+@colorH3BorderBottom: @color-primary-1;
+@colorH4BorderBottom: @color-primary-1;
+@colorH5BorderBottom: @color-primary-1;
+@colorH6BorderBottom: @color-primary-1;
+
+@colorBlockquoteBorder: @color-secondary-2-1;
+@borderColorCodeInline: @color-secondary-1-2;
+@bgColorCodeInline:     @color-secondary-1-1;
+@bgColorCodeBlock:      @color-secondary-1-1;
+@colorCodeBlockBorder:  @color-secondary-1-2;
+
+.region-footer {
+	color: @color-secondary-2-1;
+	
+	a:link, a:visited {
+		color: @color-secondary-2-1;
+	}
+	
+	a:hover, a:focus, a:active {
+		color: @color-secondary-2-4;
+		background-color: @color-secondary-2-1;
+	}
+}
