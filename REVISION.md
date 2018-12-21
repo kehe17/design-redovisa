@@ -1,6 +1,13 @@
 Revision history
 ===================
 
+v4.0.0 (2018-12-21)
+* Created 3 different styles for kmom04.
+* Changed default stylesheet to 04_dark.
+* Added color scheme article.
+* Added kmom04 text.
+* Added link to kmom04 text on navbar.
+
 v3.0.0 (2018-11-28)
 * Created vetical grid for kmom03.
 * Changed default stylesheet to kmom03.
