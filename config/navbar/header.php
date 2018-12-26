@@ -54,6 +54,11 @@ return [
                         "url" => "rapport/fargschema",
                         "title" => "Färgschema, kmom04.",
                     ],
+					[
+                        "text" => "Laddningstid",
+                        "url" => "rapport/laddningstid",
+                        "title" => "Laddningstid, kmom05.",
+                    ],
                 ],
             ],
         ],
