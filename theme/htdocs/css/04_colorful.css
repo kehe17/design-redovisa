@@ -392,7 +392,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 }
 .rm-default li li {
   display: block;
-  min-width: 7.98em;
+  min-width: 10em;
 }
 .rm-default a {
   display: block;
@@ -476,9 +476,6 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 .rm-mobile li.rm-submenu-open > ul {
   position: relative;
   left: 0;
-}
-.rm-mobile li li {
-  width: calc(100% - 16px);
 }
 /**
  * Menu layout for the max variant, for mobile screens and complete menues.
@@ -588,7 +585,8 @@ img {
 .next {
   float: right;
 }
-.article::after {
+.article::after,
+.blog-list-item::after {
   content: "";
   display: block;
   clear: both;
@@ -1104,7 +1102,7 @@ hr::after {
 }
 .author-byline {
   border: 1px solid #ccc;
-  margin-bottom: calc(24px * 2);
+  margin-bottom: 12px;
 }
 .author-byline::after {
   content: "";

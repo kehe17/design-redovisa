@@ -23,6 +23,11 @@ return [
             "url" => "rapport",
             "title" => "Rapporttexter från kursmomenten.",
         ],
+		[
+            "text" => "Blogg",
+            "url" => "blogg",
+            "title" => "Kmom05 cimage blog.",
+        ],
         [
             "text" => "Om",
             "url" => "om",
